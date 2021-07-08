@@ -1,0 +1,223 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<script>
+    function hienthi (k)
+    {
+        document.getElementById (k) .style.zIndex = 6;
+        for(i=1;i <= 6;i++)
+        if(i != k)
+        document.getElementById (i) .style.zIndex = 1;
+        
+    }
+</script>
+	
+<style>
+	*{
+	margin: 0px auto;
+	padding: 0px;
+}
+
+header{
+	width: 1000px;
+	height: 100px;
+}
+
+#logo{
+	margin-left: 50px;
+	float: left;
+}
+
+#dn{
+	font-size: 30px;
+	margin-top: 50px;
+	margin-right: 50px;
+	float: right;
+}
+
+#dn>a{
+	color: aqua;
+	text-decoration: none;
+}
+
+#dn a:hover{
+	color: #12FF00;
+}
+
+nav{
+	width: 1000px;
+	height: 50px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	border: double 3px #000DFF;
+	border-radius: 10px;
+	clear: both;
+}
+
+nav a{
+	color: aqua;
+	font-weight: bold;
+	font-size: 25px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	margin: auto 30px;
+}
+
+nav a:hover{
+	color: #12FF00;
+	width: 150px;
+	height: 50px;
+}
+
+#body{
+	width: 1000px;
+	height: 600px;
+}
+	
+article{
+	width: 580px;
+	height: 600px;
+	border: dotted 3px #FF0004;
+	border-radius: 5px;
+	float: left;
+}
+	
+#tren{
+	width: 450px;
+	height: 350px;
+	margin: 20px auto;
+	border-radius: 5px;
+	position: relative;
+}	
+.anh{
+	width: 420px;
+	height: 300px;
+	box-shadow: 2 1 5px 0 #000000;
+	left: 15px;
+	top: 25px;
+	position: absolute;
+}
+#duoi{
+	border: dotted 2px #00F3FF;
+	width: 520px;
+	height: 150px;
+	margin: 20px auto;
+	border-radius: 5px;
+	
+}
+#duoi>img{
+	width: 150px;
+	height: 120px;
+	box-shadow: 2 1 5px 0 #000000;
+	left: 25px;
+	top: 25px;
+	margin: 15px 10px;
+}
+#duoi>img:hover{
+	cursor: pointer;
+}
+	
+#chitiet{
+		
+	border: dotted 3px #FF0004;
+	width: 400px;
+	height: 600px;
+	border-radius: 5px;
+	float: right;
+}
+
+#chu{
+	font-size: 20px;
+	color: #FFFFFF;
+	margin-left: 25px;
+}
+
+#chu>ul>li{
+	margin-top: 10px;	
+}
+
+#chitiet>div>h2{
+	text-align: center;
+	height: 40px;
+	border-radius: 15px;
+	background:linear-gradient(90deg,red,orange);
+	margin-top: 5px;
+	font-size: 30px
+}
+	
+#tai>center>a{
+	color: #FF0004;	
+}
+	
+#tengame{
+	text-align: center;
+	height: 40px;
+	border-radius: 15px;
+	background:linear-gradient(90deg,red,orange);
+	margin-top: 5px;
+	font-size: 30px
+}
+	
+</style>
+<body background="images/bg3.jpg">
+		
+	<header>
+		<div id="logo"><img src="images/Logo.png"></div>
+		<div id="dn">
+		<a href="dangnhap.html">Đăng nhập</a> |
+		<a href="dangki.html">Đăng ký</a>
+		</div>
+	</header>
+	
+	<nav>
+		<a href="trangchu.html"> Trang chủ</a>
+		<a href="#"> Chi tiết</a>
+		<a href="trangchu.html"> Game hay PC</a>
+		<a href="Mb-1.html"> Game hay Mobile</a>
+	</nav>
+	<div id="body">
+	<section id="left">
+		
+		<article>
+			<div id="tengame"><b>Call of Duty</b></div>
+            <div id="tren">
+                <img class="anh" id="1" src="images/pc/call of duty-1.jpg" style="z-index: 6;">
+                <img class="anh" id="2" src="images/pc/call of duty-2.jpg">
+                <img class="anh" id="3" src="images/pc/call of duty-3.jpg">
+            </div>
+            <div id="duoi">
+                <img src="images/pc/call of duty-1.jpg" onclick="hienthi (1)">
+                <img src="images/pc/call of duty-2.jpg" onclick="hienthi (2)">
+                <img src="images/pc/call of duty-3.jpg" onclick="hienthi (3)">
+
+            </div>
+    </article>
+		
+	</section>
+	
+	<div id="chitiet">
+		
+		<div><h2><center>Chi tiết</center></h2></div>
+		
+		<div id="chu">
+		
+  			<ul type="circle">
+			<li>Mới được ra mắt cách đây khoảng hơn 1 tháng, Call of Duty Warzone nhanh chóng sở hữu cho mình một lượng người chơi khổng lồ và đang không ngừng tiếp tục tăng lên. Mặc dù đây không phải là lần đầu tiên COD ra mắt mà trước đó đã có rất nhiều phần, nhưng có lẽ đây là phần đầu tiên được phát hành miễn phí trên các store và chắc chắn là độ hot không hề kém các bản trước chút nào, thậm chí có phần nhỉnh hơn khá nhiều.</li>
+			<li>Call of Duty Warzone là tựa game bắn súng sinh tồn với tổng cộng 12 map chơi ở nhiều chế độ và có đến 8 Class nhân vật ở chế độ sinh tồn để bạn thỏa sức lựa chọn và thử sức mình ở những vai trò khác nhau trong game.</li>
+			<li>Hiện tựa game đang nổi đình đám trong cộng đồng game hiện nay và được đánh giá rất cao cũng như rất có tương lai phát triển trong mảnh eSport.</li>
+			
+		</ul>
+			
+			<i id="tai"><center>Xem chi tiết hơn tại <a href="https://www.callofduty.com/">đây</a></center></i>
+		</div>
+		
+	</div>
+		
+	</div>
+</body>
+</html>

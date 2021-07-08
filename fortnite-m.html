@@ -1,0 +1,220 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+</head>
+
+<script>
+    function hienthi (k)
+    {
+        document.getElementById (k) .style.zIndex = 6;
+        for(i=1;i <= 6;i++)
+        if(i != k)
+        document.getElementById (i) .style.zIndex = 1;
+        
+    }
+</script>
+	
+<style>
+	*{
+	margin: 0px auto;
+	padding: 0px;
+}
+
+header{
+	width: 1000px;
+	height: 100px;
+}
+
+#logo{
+	margin-left: 50px;
+	float: left;
+}
+
+#dn{
+	font-size: 30px;
+	margin-top: 50px;
+	margin-right: 50px;
+	float: right;
+}
+
+#dn>a{
+	color: aqua;
+	text-decoration: none;
+}
+
+#dn a:hover{
+	color: #12FF00;
+}
+
+nav{
+	width: 1000px;
+	height: 50px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	border: double 3px #000DFF;
+	border-radius: 10px;
+	clear: both;
+}
+
+nav a{
+	color: aqua;
+	font-weight: bold;
+	font-size: 25px;
+	text-decoration: none;
+	text-align: center;
+	line-height: 50px;
+	margin: auto 30px;
+}
+
+nav a:hover{
+	color: #12FF00;
+	width: 150px;
+	height: 50px;
+}
+
+#body{
+	width: 1000px;
+	height: 600px;
+}
+	
+article{
+	width: 580px;
+	height: 600px;
+	border: dotted 3px #FF0004;
+	border-radius: 5px;
+	float: left;
+}
+	
+#tren{
+	width: 450px;
+	height: 350px;
+	margin: 20px auto;
+	border-radius: 5px;
+	position: relative;
+}	
+.anh{
+	width: 420px;
+	height: 300px;
+	box-shadow: 2 1 5px 0 #000000;
+	left: 15px;
+	top: 25px;
+	position: absolute;
+}
+#duoi{
+	border: dotted 2px #00F3FF;
+	width: 520px;
+	height: 150px;
+	margin: 20px auto;
+	border-radius: 5px;
+	
+}
+#duoi>img{
+	width: 150px;
+	height: 120px;
+	box-shadow: 2 1 5px 0 #000000;
+	left: 25px;
+	top: 25px;
+	margin: 15px 10px;
+}
+#duoi>img:hover{
+	cursor: pointer;
+}
+	
+#chitiet{
+		
+	border: dotted 3px #FF0004;
+	width: 400px;
+	height: 600px;
+	border-radius: 5px;
+	float: right;
+}
+
+#chu{
+	font-size: 20px;
+	color: #FFFFFF;
+	margin-left: 25px;
+}
+
+#chu>ul>li{
+	margin-top: 10px;	
+}
+
+#chitiet>div>h2{
+	text-align: center;
+	height: 40px;
+	border-radius: 15px;
+	background:linear-gradient(90deg,red,orange);
+	margin-top: 5px;
+	font-size: 30px
+}
+	
+#tai>center>a{
+	color: #FF0004;	
+}
+	
+#tengame{
+	text-align: center;
+	height: 40px;
+	border-radius: 15px;
+	background:linear-gradient(90deg,red,orange);
+	margin-top: 5px;
+	font-size: 30px
+}
+	
+</style>
+<body background="images/bg3.jpg">
+		
+	<header>
+		<div id="logo"><img src="images/Logo.png"></div>
+		<div id="dn">
+		<a href="dangnhap.html">Đăng nhập</a> |
+		<a href="dangki.html">Đăng ký</a>
+		</div>
+	</header>
+	
+	<nav>
+		<a href="trangchu.html"> Trang chủ</a>
+		<a href="#"> Chi tiết</a>
+		<a href="trangchu.html"> Game hay PC</a>
+		<a href="Mb-1.html"> Game hay Mobile</a>
+	</nav>
+	<div id="body">
+	<section id="left">
+		
+		<article>
+			<div id="tengame"><b>Fortnite Battle Royale</b></div>
+            <div id="tren">
+                <img class="anh" id="1" src="images/mobile/FBR-1.jpg" style="z-index: 6;">
+                <img class="anh" id="2" src="images/mobile/FBR-2.jpg">
+                <img class="anh" id="3" src="images/mobile/FBR-3.jpg">
+            </div>
+            <div id="duoi">
+                <img src="images/mobile/FBR-1.jpg" onclick="hienthi (1)">
+                <img src="images/mobile/FBR-2.jpg" onclick="hienthi (2)">
+                <img src="images/mobile/FBR-3.jpg" onclick="hienthi (3)">
+
+            </div>
+    </article>
+		
+	</section>
+	
+	<div id="chitiet">
+		
+		<div><h2><center>Chi tiết</center></h2></div>
+		
+		<div id="chu">
+		
+  			<ul type="circle">
+			<li>Điểm hay nhất của Fortnite Mobile là nó tương thích với nhiều nền tảng khác nhau và hỗ trợ người dùng có thể chơi trên trên PC, máy tính bảng, hay điện thoại di động của mình. Trò chơi sẽ khó điều khiển hơn khi bạn chơi trên thiết bị di động thay vì máy tính, nhưng về cơ bản thì nó vẫn là tựa game được nhiều người yêu thích nhất hiện nay.</li>
+			<li>Với lối chơi Battle Royale thịnh hành trong nhiều năm vừa qua, đây sẽ là một tựa game mà bạn đáng thử. Ngoài việc sinh tồn bằng việc nhặt súng, đạn thì chúng ta còn có thể xây tường, thang để di chuyển tới vị trí cao hơn. Đây là tựa game được rất nhiều người chơi yêu thích bởi độ đa dạng trong lối chơi chứ không đơn thuần chỉ là bắn và trốn.</li>
+		</ul>
+			
+		</div>
+		
+	</div>
+		
+	</div>
+</body>
+</html>
